@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DDDAC0E22733F1A00956C63 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDDAC0D22733F1A00956C63 /* DateCollectionViewCell.swift */; };
+		8DDDAC10227340B500956C63 /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDDAC0F227340B500956C63 /* CalendarVars.swift */; };
 		9D9B51F2227164E1000CE989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B51F1227164E1000CE989 /* AppDelegate.swift */; };
 		9D9B51F4227164E1000CE989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9B51F3227164E1000CE989 /* ViewController.swift */; };
 		9D9B51F7227164E1000CE989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B51F5227164E1000CE989 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DDDAC0D22733F1A00956C63 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		8DDDAC0F227340B500956C63 /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
 		9D9B51EE227164E1000CE989 /* raywenderlichCoreGraphic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = raywenderlichCoreGraphic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9B51F1227164E1000CE989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D9B51F3227164E1000CE989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				9D9B52072271B428000CE989 /* PieChartView.swift */,
 				9D9B51F1227164E1000CE989 /* AppDelegate.swift */,
 				9D9B51F3227164E1000CE989 /* ViewController.swift */,
+				8DDDAC0F227340B500956C63 /* CalendarVars.swift */,
+				8DDDAC0D22733F1A00956C63 /* DateCollectionViewCell.swift */,
 				9D9B51F5227164E1000CE989 /* Main.storyboard */,
 				9D9B5205227170E5000CE989 /* CounterView.swift */,
 				9D9B5203227165B8000CE989 /* PushButton.swift */,
@@ -144,10 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDDAC10227340B500956C63 /* CalendarVars.swift in Sources */,
 				9D9B51F4227164E1000CE989 /* ViewController.swift in Sources */,
 				9D9B52082271B428000CE989 /* PieChartView.swift in Sources */,
 				9D9B51F2227164E1000CE989 /* AppDelegate.swift in Sources */,
 				9D9B5204227165B8000CE989 /* PushButton.swift in Sources */,
+				8DDDAC0E22733F1A00956C63 /* DateCollectionViewCell.swift in Sources */,
 				9D9B5206227170E5000CE989 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
